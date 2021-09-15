@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.code-mirror-wrapper {
+  height: 100% !important;
+  width: 100% !important
+}
+.code-mirror-wrapper {
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  overflow: auto;
+ 
+}
