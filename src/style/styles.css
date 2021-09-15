@@ -6847,6 +6847,14 @@ video {
   width: max-content;
 }
 
+.w-small {
+  width: 45vw;
+}
+
+.w-big {
+  width: 90vw;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
@@ -6961,6 +6969,10 @@ video {
 
 .flex-50 {
   flex: 0 1 47%;
+}
+
+.flex-100 {
+  flex: 0 1 100%;
 }
 
 .flex-auto {
@@ -32428,13 +32440,12 @@ video {
 
 .code-mirror-wrapper {
   height: 100% !important;
-  width: 100% !important
 }
 
 .code-mirror-wrapper {
-  border-bottom-left-radius: .5rem;
-  border-bottom-right-radius: .5rem;
-  overflow: auto;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  overflow: hidden;
 }
 
 @media (min-width: 640px) {
@@ -38686,6 +38697,14 @@ video {
     width: max-content;
   }
 
+  .sm\:w-small {
+    width: 45vw;
+  }
+
+  .sm\:w-big {
+    width: 90vw;
+  }
+
   .sm\:min-w-0 {
     min-width: 0px;
   }
@@ -38800,6 +38819,10 @@ video {
 
   .sm\:flex-50 {
     flex: 0 1 47%;
+  }
+
+  .sm\:flex-100 {
+    flex: 0 1 100%;
   }
 
   .sm\:flex-auto {
@@ -70084,6 +70107,14 @@ video {
     width: max-content;
   }
 
+  .md\:w-small {
+    width: 45vw;
+  }
+
+  .md\:w-big {
+    width: 90vw;
+  }
+
   .md\:min-w-0 {
     min-width: 0px;
   }
@@ -70198,6 +70229,10 @@ video {
 
   .md\:flex-50 {
     flex: 0 1 47%;
+  }
+
+  .md\:flex-100 {
+    flex: 0 1 100%;
   }
 
   .md\:flex-auto {
@@ -101482,6 +101517,14 @@ video {
     width: max-content;
   }
 
+  .lg\:w-small {
+    width: 45vw;
+  }
+
+  .lg\:w-big {
+    width: 90vw;
+  }
+
   .lg\:min-w-0 {
     min-width: 0px;
   }
@@ -101596,6 +101639,10 @@ video {
 
   .lg\:flex-50 {
     flex: 0 1 47%;
+  }
+
+  .lg\:flex-100 {
+    flex: 0 1 100%;
   }
 
   .lg\:flex-auto {
@@ -132880,6 +132927,14 @@ video {
     width: max-content;
   }
 
+  .xl\:w-small {
+    width: 45vw;
+  }
+
+  .xl\:w-big {
+    width: 90vw;
+  }
+
   .xl\:min-w-0 {
     min-width: 0px;
   }
@@ -132994,6 +133049,10 @@ video {
 
   .xl\:flex-50 {
     flex: 0 1 47%;
+  }
+
+  .xl\:flex-100 {
+    flex: 0 1 100%;
   }
 
   .xl\:flex-auto {
@@ -164278,6 +164337,14 @@ video {
     width: max-content;
   }
 
+  .\32xl\:w-small {
+    width: 45vw;
+  }
+
+  .\32xl\:w-big {
+    width: 90vw;
+  }
+
   .\32xl\:min-w-0 {
     min-width: 0px;
   }
@@ -164392,6 +164459,10 @@ video {
 
   .\32xl\:flex-50 {
     flex: 0 1 47%;
+  }
+
+  .\32xl\:flex-100 {
+    flex: 0 1 100%;
   }
 
   .\32xl\:flex-auto {
