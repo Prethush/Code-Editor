@@ -3,11 +3,8 @@
 @tailwind utilities;
 
 .code-mirror-wrapper {
-  height: 100% !important;
-}
-
-.code-mirror-wrapper {
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   overflow: hidden;
+  height: 100% !important;
 }
