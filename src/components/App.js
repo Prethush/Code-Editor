@@ -62,7 +62,7 @@ img {
               frameBorder="0"
               width="100%"
               height="100%"
-              className="bg-gray-300 rounded-b-lg py-6"
+              className="bg-gray-300 rounded-b-lg"
             />
           </div>
         </section>
