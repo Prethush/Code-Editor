@@ -27,7 +27,7 @@ function Editor(props) {
           value={value}
           className="code-mirror-wrapper"
           options={{
-            linewrapping: true,
+            lineWrapping: true,
             lint: true,
             mode: language,
             lineNumbers: true,
